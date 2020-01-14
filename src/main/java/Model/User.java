@@ -1,5 +1,8 @@
 package Model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class User {
     private String userName;
     private String passWord;

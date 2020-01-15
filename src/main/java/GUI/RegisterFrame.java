@@ -1,7 +1,12 @@
 package GUI;
 
+import DAO.UserDAO;
+import Model.User;
+
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class RegisterFrame {
 
@@ -9,7 +14,7 @@ public class RegisterFrame {
     private JLabel usernameLable;
     private JLabel passworldLable;
     private JTextField usernameTextField;
-    private JTextField passwordTextField;
+    private JPasswordField passwordTextField;
     private JButton submitButton;
     private JButton clearButton;
     private JPanel leftPanel;
@@ -23,24 +28,41 @@ public class RegisterFrame {
 
     private void InitComponent() {
         jFrame = new JFrame("Register");
-        jFrame.setBounds(100, 100, 300, 130);
+        jFrame.setBounds(100, 100, 500, 230);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         usernameLable = new JLabel("Username");
-        usernameLable.setPreferredSize(new Dimension(100, 20));
+        usernameLable.setPreferredSize(new Dimension(100, 50));
         usernameTextField = new JTextField();
-        usernameTextField.setPreferredSize(new Dimension(100, 20));
+        usernameTextField.setPreferredSize(new Dimension(200, 50));
 
         passworldLable = new JLabel("Password");
-        passworldLable.setPreferredSize(new Dimension(100, 20));
-        passwordTextField = new JTextField();
-        passwordTextField.setPreferredSize(new Dimension(100, 20));
+        passworldLable.setPreferredSize(new Dimension(200, 20));
+        passwordTextField = new JPasswordField();
+        passwordTextField.setPreferredSize(new Dimension(200, 20));
 
         submitButton = new JButton("Submit");
-        submitButton.setPreferredSize(new Dimension(100, 20));
+        submitButton.setPreferredSize(new Dimension(100, 40));
+        submitButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                UserDAO userDAO = new UserDAO();
+                String username = usernameTextField.getText();
+                String password = new String(passwordTextField.getPassword());
+                User user = new User(username, password);
+                userDAO.saveUser(user);
+            }
+        });
 
         clearButton = new JButton("Clear");
-        clearButton.setPreferredSize(new Dimension(100, 20));
+        clearButton.setPreferredSize(new Dimension(100, 40));
+        clearButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                usernameTextField.setText("");
+                passwordTextField.setText("");
+            }
+        });
 
         leftPanel = new JPanel();
         rightPanel = new JPanel();

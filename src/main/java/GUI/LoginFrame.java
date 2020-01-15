@@ -1,17 +1,23 @@
 package GUI;
 
+import DAO.UserDAO;
+import Model.User;
+
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class LoginFrame {
 
+    private UserDAO userDAO = new UserDAO();
     private JFrame jFrame;
     private JButton loginButton;
     private JButton registerButton;
     private JLabel userNameLable;
     private JLabel passwordLable;
     private JTextField usernameTextField;
-    private JTextField passwordTextField;
+    private JPasswordField passwordTextField;
 
     public void InitComponent() {
         jFrame = new JFrame("Login");
@@ -21,16 +27,35 @@ public class LoginFrame {
         loginButton = new JButton("Login");
         loginButton.setForeground(Color.WHITE);
         loginButton.setBackground(Color.decode("#2db1ff"));
+        loginButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String username = usernameTextField.getText();
+                String password = new String(passwordTextField.getPassword());
+                User user = userDAO.getUserByUsername(username);
+                if (!password.equals(user.getPassWord())) {
+                    JOptionPane.showMessageDialog(null, "Wrong Password");
+                } else {
+                    JOptionPane.showMessageDialog(null, "Login successful");
+                }
+            }
+        });
 
         registerButton = new JButton("Register");
         registerButton.setForeground(Color.WHITE);
         registerButton.setBackground(Color.RED);
+        registerButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
 
         userNameLable = new JLabel("Username");
         usernameTextField = new JTextField();
 
         passwordLable = new JLabel("Password");
-        passwordTextField = new JTextField();
+        passwordTextField = new JPasswordField();
 
         userNameLable.setBounds(80, 70, 200, 30);
         passwordLable.setBounds(80, 110, 200, 30);
@@ -58,7 +83,7 @@ public class LoginFrame {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 LoginFrame login = new LoginFrame();
-//                login.jFrame.setVisible(true);
+                login.jFrame.setVisible(true);
             }
         });
     }

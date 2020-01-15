@@ -2,51 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8dfa44-c074-4b7e-8003-b3fb7894419b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HIbernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_6_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_10_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/LoginFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/LoginFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GUI/RegisterFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/RegisterFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HIbernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/HibernateUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/LoginFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/LoginFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/LoginFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/LoginFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/RegisterFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/RegisterFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/RegisterFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/RegisterFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HIbernateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +72,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.RegisterFrame">
     <configuration name="LoginFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUI.LoginFrame" />
       <module name="Chat" />
@@ -122,9 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.RegisterFrame" />
         <item itemvalue="Application.LoginFrame" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +141,11 @@
       <workItem from="1578976449871" duration="20000" />
       <workItem from="1578976602358" duration="1297000" />
       <workItem from="1578984635237" duration="3151000" />
-      <workItem from="1579012640664" duration="1516000" />
+      <workItem from="1579012640664" duration="1775000" />
+      <workItem from="1579016051368" duration="1803000" />
+      <workItem from="1579050859114" duration="281000" />
+      <workItem from="1579060565968" duration="785000" />
+      <workItem from="1579072785991" duration="3394000" />
     </task>
     <servers />
   </component>
@@ -180,10 +170,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1578976469205" />
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1579013108402">
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1579076035136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1579013108402" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1579076035136" />
     <state x="397" y="63" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578735801867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -200,25 +190,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="577" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579012775135" />
-    <state width="724" height="207" key="GridCell.Tab.0.bottom" timestamp="1579014024239">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1579076186345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579014024239" />
-    <state width="724" height="207" key="GridCell.Tab.0.center" timestamp="1579014024239">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579076186345" />
+    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1579076186345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579014024239" />
-    <state width="724" height="207" key="GridCell.Tab.0.left" timestamp="1579014024239">
+    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579076186345" />
+    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1579076186345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579014024239" />
-    <state width="724" height="207" key="GridCell.Tab.0.right" timestamp="1579014024239">
+    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579076186345" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1579076186345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579014024239" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579076186345" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1579012785709">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579012785709" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1579075324775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1579075324775" />
   </component>
 </project>

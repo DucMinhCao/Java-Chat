@@ -1,15 +1,13 @@
 package Model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "users")
 public class User {
     @Id
     @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "username")
@@ -22,8 +20,7 @@ public class User {
 
     }
 
-    public User(Long id ,String userName, String passWord) {
-        this.id = id;
+    public User(String userName, String passWord) {
         this.userName = userName;
         this.passWord = passWord;
     }
